@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LexNishant Legal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b3d0b;
+      color: #ffffff;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #064d06;
+      padding: 10px 20px;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav a {
+      color: #66ff66;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .services {
+      background-color: #116611;
+    }
+
+    footer {
+      background-color: #042904;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .support-box {
+      background-color: #155e15;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <h1>LexNishant Legal</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#support">Customer Support</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h2>Committed to Justice, Focused on You</h2>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>LexNishant Legal is a modern law firm founded with the mission to deliver justice with integrity, efficiency, and focus. Led by aspiring advocate Nishant, we aim to simplify legal solutions for every citizen.</p>
+  </section>
+
+  <section>
+    <h2>Our Practice Areas</h2>
+    <ul>
+      <li>Criminal Law</li>
+      <li>Civil Disputes</li>
+      <li>Legal Drafting & Documentation</li>
+      <li>Client Consultation & Advisory</li>
+    </ul>
+  </section>
+
+  <section id="community">
+    <h2>Community</h2>
+    <p>We believe in giving back. Join our legal awareness drives, free consultation camps, and online knowledge sessions to stay empowered and informed.</p>
+  </section>
+
+  <section>
+    <img src="images/advocate.jpg" alt="Advocate Nishant" style="width: 200px;" />
+  </section>
+
+  <section id="support">
+    <h2>Customer Support</h2>
+    <div class="support-box">
+      <p><strong>Email:</strong> <a href="mailto:nishantkumarr2010@gmail.com">nishantkumarr2010@gmail.com</a></p>
+      <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+      <p><strong>Support Hours:</strong> Mon-Sat, 9am - 6pm</p>
+      <p>Need help? We're just an email or call away. Whether it’s case tracking, document uploads, or appointments — our team ensures smooth, secure communication.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 LexNishant Legal | All rights reserved.
+  </footer>
+
+</body>
+</html>
